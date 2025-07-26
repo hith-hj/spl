@@ -9,7 +9,6 @@ use App\Enums\PartnersTypes;
 use App\Models\Category;
 use App\Models\Course;
 use App\Models\Court;
-use App\Models\Lesson;
 use App\Models\Partner;
 use App\Models\Stadium;
 use App\Models\Trainer;

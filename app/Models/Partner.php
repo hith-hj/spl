@@ -18,11 +18,11 @@ use PHPOpenSourceSaver\JWTAuth\Contracts\JWTSubject;
 
 final class Partner extends Authenticatable implements JWTSubject
 {
+    use CategoryHandler;
     use CodeHandler;
     use HasFactory;
     use NotificationsHandler;
     use VerificationHandler;
-    use CategoryHandler;
 
     protected function casts(): array
     {
@@ -79,5 +79,4 @@ final class Partner extends Authenticatable implements JWTSubject
 
         return $this->hasMany(Course::class);
     }
-
 }

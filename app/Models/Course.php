@@ -31,7 +31,7 @@ final class Course extends Model
             'is_outdoor' => 'boolean',
             'in_public' => 'boolean',
             'is_private' => 'boolean',
-            'is_multiPerson' => 'boolean'
+            'is_multiPerson' => 'boolean',
         ];
     }
 

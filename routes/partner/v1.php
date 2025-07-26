@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 use App\Http\Controllers\Partner\Api\ActivitiesController;
 use App\Http\Controllers\Partner\Api\AuthController;
-use App\Http\Controllers\Partner\Api\CourtsController;
 use App\Http\Controllers\Partner\Api\CoursesController;
+use App\Http\Controllers\Partner\Api\CourtsController;
 use App\Http\Controllers\Partner\Api\LocationsController;
 use App\Http\Controllers\Partner\Api\MediasController;
 use App\Http\Controllers\Partner\Api\PartnersController;

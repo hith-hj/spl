@@ -23,12 +23,12 @@ Route::group(
 Route::group(
     [
         'prefix' => '/partner',
-        'middleware' => [JwtMiddleware::class]
+        'middleware' => [JwtMiddleware::class],
     ],
     function (): void {
         Route::group(
             [
-                'prefix' => '/v1'
+                'prefix' => '/v1',
             ],
             function (): void {
                 require 'partner/v1.php';

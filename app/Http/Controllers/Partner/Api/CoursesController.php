@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace App\Http\Controllers\Partner\Api;
 
-use App\Enums\PartnersTypes;
 use App\Http\Controllers\Controller;
 use App\Http\Resources\CourseResource;
 use App\Services\CourseServices;

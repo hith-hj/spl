@@ -4,13 +4,9 @@ declare(strict_types=1);
 
 namespace App\Services;
 
-use App\Enums\PartnersTypes;
 use App\Models\Course;
-use App\Models\Partner;
 use Exception;
 use Illuminate\Support\Collection;
-
-use function PHPUnit\Framework\throwException;
 
 final class CourseServices
 {
@@ -46,9 +42,9 @@ final class CourseServices
     public function create(object $partner, array $data): Course
     {
         Required($data, 'course data');
-        Truthy($data['in_public'] !== true , 'invalid court course operation');
+        Truthy($data['in_public'] !== true, 'invalid court course operation');
         $course = $partner->courses()->create([
-            'name' => $data['name'] ,
+            'name' => $data['name'],
             'type' => $data['type'],
             'description' => $data['description'],
             'is_multiPerson' => $data['is_multiPerson'],
@@ -56,7 +52,7 @@ final class CourseServices
             'cost' => $data['cost'],
             'cancellation_cost' => $data['cancellation_cost'],
             'is_outdoor' => $data['is_outdoor'],
-            'in_public'=>false,
+            'in_public' => false,
         ]);
         if ($partner->courses()->count() === 1) {
             $this->setMain($partner, $course);
@@ -111,11 +107,10 @@ final class CourseServices
         }
 
         return [
-            'workdays' => fn($query) => $query->limit($this->itemsCount),
-            'activities' => fn($query) => $query->limit($this->itemsCount),
-            'medias' => fn($query) => $query->limit($this->itemsCount),
+            'workdays' => fn ($query) => $query->limit($this->itemsCount),
+            'activities' => fn ($query) => $query->limit($this->itemsCount),
+            'medias' => fn ($query) => $query->limit($this->itemsCount),
             'location',
         ];
     }
-
 }

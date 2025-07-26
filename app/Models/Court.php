@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace App\Models;
 
 use App\Traits\ActivityHandler;
-use App\Traits\Eraser;
 use App\Traits\CourseHandler;
+use App\Traits\Eraser;
 use App\Traits\LocationHandler;
 use App\Traits\MediaHandler;
 use App\Traits\PartnerHandler;
@@ -17,8 +17,8 @@ use Illuminate\Database\Eloquent\Model;
 final class Court extends Model
 {
     use ActivityHandler;
-    use HasFactory;
     use CourseHandler;
+    use HasFactory;
     use LocationHandler;
     use MediaHandler;
     use PartnerHandler;

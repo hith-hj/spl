@@ -20,7 +20,8 @@ final class CourseFactory extends Factory
         $in_public = fake()->boolean;
         $court = $in_public ? null : 1;
         $type = fake()->randomElement(['daily', 'monthly']);
-        $month_sessions = $type === 'monthly' ? mt_rand(1,30) : 1;
+        $month_sessions = $type === 'monthly' ? mt_rand(1, 30) : 1;
+
         return [
             'court_id' => $court,
             'name' => fake()->name,
@@ -45,8 +46,8 @@ final class CourseFactory extends Factory
             $rand = mt_rand(1, 2);
             Workday::factory($rand)->for($cource, 'belongTo')->create();
             Activity::factory($rand)->for($cource, 'belongTo')->create();
-            if($cource->is_public){
-                Location::factory()->for($cource,'belongTo')->create();
+            if ($cource->is_public) {
+                Location::factory()->for($cource, 'belongTo')->create();
             }
         });
     }

@@ -6,7 +6,6 @@ namespace App\Traits;
 
 use App\Models\Course;
 use App\Models\Court;
-use App\Models\Lesson;
 use Exception;
 
 trait CourseHandler

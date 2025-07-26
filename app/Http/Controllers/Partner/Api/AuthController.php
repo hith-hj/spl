@@ -21,7 +21,7 @@ final class AuthController extends Controller
 
         return Success(
             msg: __('main.registerd'),
-            payload:['code'=>$partner->code(CodesTypes::verification->name)->code],
+            payload: ['code' => $partner->code(CodesTypes::verification->name)->code],
             code: 201
         );
     }

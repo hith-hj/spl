@@ -34,11 +34,11 @@ return new class extends Migration
             $table->text('description')->nullable();
             $table->string('trainers')->nullable();
             $table->timestamps();
-            //last_visit_at
-            //start_date
-            //end_date
-            //session_count
-            //remaining_count
+            // last_visit_at
+            // start_date
+            // end_date
+            // session_count
+            // remaining_count
         });
     }
 
