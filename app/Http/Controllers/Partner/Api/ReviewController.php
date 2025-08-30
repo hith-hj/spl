@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Http\Controllers\V1;
+namespace App\Http\Controllers\Partner\Api;
 
 use App\Http\Controllers\Controller;
 use App\Http\Resources\ReviewResource;
