@@ -66,7 +66,15 @@
         <img src="https://github.com/hith-hj/mockups/blob/main/spl/workdays.png?raw=true" style="width: 200px !important;" />
       </td>
       <td style="text-align: center;">
+        <img src="https://github.com/hith-hj/mockups/blob/main/spl/media.png?raw=true" style="width: 200px !important;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
         <img src="https://github.com/hith-hj/mockups/blob/main/spl/gallery.png?raw=true" style="width: 200px !important;" />
+      </td>
+      <td style="text-align: center;">
+        <img src="https://github.com/hith-hj/mockups/blob/main/spl/courts.png?raw=true" style="width: 200px !important;" />
       </td>
     </tr>
   </table>
