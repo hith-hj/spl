@@ -39,3 +39,35 @@
 | Scheduler    | Laravel Queues & Cron  |
 | Maps         | Leaflet.js 		|
 
+## visuals
+
+### Partner
+
+<div style="width: 100vw; overflow-x: auto;">
+  <table style="width: 100%; border-collapse: collapse;">
+    <tr>
+      <td style="text-align: center;">
+        <img src="https://github.com/hith-hj/mockups/blob/main/spl/splash.png?raw=true" style="width: 100%; max-width: 200px;" />
+      </td>
+      <td style="text-align: center;">
+        <img src="https://github.com/hith-hj/mockups/blob/main/spl/profile.png?raw=true" style="width: 100%; max-width: 200px;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        <img src="https://github.com/hith-hj/mockups/blob/main/spl/appointments.png?raw=true" style="width: 100%; max-width: 200px;" />
+      </td>
+      <td style="text-align: center;">
+        <img src="https://github.com/hith-hj/mockups/blob/main/spl/activities.png?raw=true" style="width: 100%; max-width: 200px;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        <img src="https://github.com/hith-hj/mockups/blob/main/spl/workdays.png?raw=true" style="width: 100%; max-width: 200px;" />
+      </td>
+      <td style="text-align: center;">
+        <img src="https://github.com/hith-hj/mockups/blob/main/spl/gallery.png?raw=true" style="width: 100%; max-width: 200px;" />
+      </td>
+    </tr>
+  </table>
+</div>
