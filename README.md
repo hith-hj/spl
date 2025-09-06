@@ -47,34 +47,34 @@
   <table style="width: 100%; border-collapse: collapse;">
     <tr>
       <td style="text-align: center;">
-        <img src="https://github.com/hith-hj/mockups/blob/main/spl/splash.png?raw=true" style="width: 200px !important;" />
+        <img src="https://github.com/hith-hj/mockups/blob/main/spl/splash.png?raw=true" style="width: 300px !important;" />
       </td>
       <td style="text-align: center;">
-        <img src="https://github.com/hith-hj/mockups/blob/main/spl/profile.png?raw=true" style="width: 200px !important;" />
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align: center;">
-        <img src="https://github.com/hith-hj/mockups/blob/main/spl/appointments.png?raw=true" style="width: 200px !important;" />
-      </td>
-      <td style="text-align: center;">
-        <img src="https://github.com/hith-hj/mockups/blob/main/spl/activities.png?raw=true" style="width: 200px !important;" />
+        <img src="https://github.com/hith-hj/mockups/blob/main/spl/profile.png?raw=true" style="width: 300px !important;" />
       </td>
     </tr>
     <tr>
       <td style="text-align: center;">
-        <img src="https://github.com/hith-hj/mockups/blob/main/spl/workdays.png?raw=true" style="width: 200px !important;" />
+        <img src="https://github.com/hith-hj/mockups/blob/main/spl/appointments.png?raw=true" style="width: 300px !important;" />
       </td>
       <td style="text-align: center;">
-        <img src="https://github.com/hith-hj/mockups/blob/main/spl/media.png?raw=true" style="width: 200px !important;" />
+        <img src="https://github.com/hith-hj/mockups/blob/main/spl/activities.png?raw=true" style="width: 300px !important;" />
       </td>
     </tr>
     <tr>
       <td style="text-align: center;">
-        <img src="https://github.com/hith-hj/mockups/blob/main/spl/gallery.png?raw=true" style="width: 200px !important;" />
+        <img src="https://github.com/hith-hj/mockups/blob/main/spl/workdays.png?raw=true" style="width: 300px !important;" />
       </td>
       <td style="text-align: center;">
-        <img src="https://github.com/hith-hj/mockups/blob/main/spl/courts.png?raw=true" style="width: 200px !important;" />
+        <img src="https://github.com/hith-hj/mockups/blob/main/spl/media.png?raw=true" style="width: 300px !important;" />
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+        <img src="https://github.com/hith-hj/mockups/blob/main/spl/gallery.png?raw=true" style="width: 300px !important;" />
+      </td>
+      <td style="text-align: center;">
+        <img src="https://github.com/hith-hj/mockups/blob/main/spl/courts.png?raw=true" style="width: 300px !important;" />
       </td>
     </tr>
   </table>
